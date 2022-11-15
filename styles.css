@@ -1,0 +1,102 @@
+:root{
+    --yellow-color:#BAA232;
+    --white-color:#FFFFFF;
+    --black-color:#1B171B;
+    --fontFamily:"elephant";
+
+}
+body{
+   
+}
+.logo{
+    display: flex;
+}
+.logo img{
+   
+}
+.seriengeLogo{
+     font-family:'Elephant';
+     font-weight:lighter;
+    margin-right: 8px;
+}
+.logo h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   color: var(--black-color);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--yellow-color);
+    border-bottom: 2px solid var(--yellow-color);
+   align-items: center;
+}
+.nav-nav{
+    width: 60%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    margin-top: 5px;
+}
+.link {
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top:10%;
+   
+}
+.acceuil{
+    width: 100%;
+    height: 100%;
+}
+.card{
+   width: 250px;
+}
+#h{
+   
+}
+.carousel-item {
+    width: 100%;
+    height: 350px;
+}
+.carousel-item img{
+   width: 100%;
+    height: 100%;
+  
+}
+.about{
+    margin-top: 20px;
+    background-color: var(--yellow-color);
+    width: 100%;
+    height: 180px;
+}
+.about h2{
+   
+}
+.about p{
+    width: 80%;
+    text-align: center;
+}
+/*********************************/
+.clients{
+    display: block;
+}
+.client-lists{
+    display: flex;
+}
+.client-list{
+    
+}
+.footer{
+    
+}
