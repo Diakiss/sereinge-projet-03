@@ -1,0 +1,52 @@
+:root{
+    --yellow-color:#BAA232;
+    --white-color:#FFFFFF;
+    --black-color:#1B171B;
+    --fontFamily:"elephant";
+
+}
+.ProjGeo{
+    display: flex;
+    justify-content: space-around;
+}
+.geo{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+   z-index: 1;
+
+}
+
+.geohead{
+    display: flex;
+    justify-content: space-around;
+}
+.geohead h4{
+  
+    font-size: 1rem;
+   font-weight: bold;
+}
+
+.geoImg{
+    
+    background-color: var(--yellow-color);
+    transition: all 1s linear;
+    margin-top: -15px;
+    border-radius: 5px;
+    z-index: 3;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.geoImg a{
+    visibility: hidden;
+}
+.geoImg:hover a{
+    visibility: visible;
+}
+.geoImg img:hover {
+    opacity: 0.2;
+    transition: all 1s linear;
+}
+img:hover,.geoImg:hover img{
+    opacity: 0.5;
+    transition: all 1s linear;
+}

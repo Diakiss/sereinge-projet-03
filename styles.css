@@ -6,7 +6,7 @@
 
 }
 body{
-   
+    overflow-x: hidden;
 }
 .logo{
     display: flex;
@@ -46,6 +46,15 @@ body{
     font-weight: bold;
     font-size: 1.5rem;
     text-decoration: none;
+}
+.Presentations{
+    display: block;
+}
+.Presentations::before .Presentation{
+    display: none;
+}
+.Presentation{
+    list-style: none;
 }
 .main{
     display: flex;
@@ -92,11 +101,44 @@ body{
     display: block;
 }
 .client-lists{
-    display: flex;
+    
 }
 .client-list{
     
 }
 .footer{
     
+}
+/*************************************/
+.navlist{
+    background-color: var(--white-color);
+  
+}
+.nav-link a{
+    color: var(--yellow-color);
+}
+.list{
+    width: 28%;
+    height: 260px;
+}
+/*****************************************/
+.footer-contacts{
+    width: 100%;
+    display: grid;
+    list-style: none;
+    grid-template-columns:4fr 4fr 4fr ;
+}
+.footer-contacts li img{
+    width: 35px;
+    height: 35px;
+}
+.footer-contacts li a{
+    text-decoration: none;
+    color: var(--yellow-color);
+    font-weight: bold;
+}
+
+.copyright p{
+    margin-left: 12px;
+    color: var(--yellow-color);
 }
